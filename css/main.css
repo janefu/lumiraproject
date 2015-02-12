@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('raleway-light-webfont.eot');
+    src: url('raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-light-webfont.woff2') format('woff2'),
+         url('raleway-light-webfont.woff') format('woff'),
+         url('raleway-light-webfont.ttf') format('truetype'),
+         url('raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('raleway-bold-webfont.eot');
+    src: url('raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-bold-webfont.woff2') format('woff2'),
+         url('raleway-bold-webfont.woff') format('woff'),
+         url('raleway-bold-webfont.ttf') format('truetype'),
+         url('raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.eot');
+    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff'),
+         url('raleway-regular-webfont.ttf') format('truetype'),
+         url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: "ralewayregular", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "ralewaybold", sans-serif;
+  font-size: 1.5em;
+  color: #efab1f;
+  margin: 0;
+}
+
+h2 {
+  font-family: "ralewayregular", sans-serif;
+  font-size: 1.125em;
+  color: #666766;
+}
+
+h3 {
+  font-family: "ralewayregular", sans-serif;
+  font-size: 0.8em;
+  color: #666766;
+}
+
+p {
+  font-family: "ralewaylight", sans-serif;
+  color: #666766;
+  font-size: 0.875em;
+}
+
+ol {
+  font-family: "ralewaylight", sans-serif;
+  color: #666766;
+  font-size: 0.875em;
+  width: 40%;  
+}
+
+header {
+  display:inline-block;
+  padding: 0em;
+}
+
+header div img {
+  width: 4.5em;
+}
+
+header span img {
+  width: 100%;
+}
+
+#nav-bar {
+  background-color: white;
+  padding: 0;
+}
+
+#header-content {
+  background-color: #efab1f;
+  color: white;
+  font-size: 1.5em;
+  padding: 0.7em 2em 0.5em 2em;
+
+}
+
+.float-right {
+  float:right;
+  padding-top: 0.4em;
+}
+
+.float-rightnav {
+  float:right;
+}
+
+nav {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  background-color: white;
+  color: #666766;
+  font-size: 1rem;
+  padding: 1em 0.8em;
+  /* top right bottom left */
+  text-decoration: none; 
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  display: inline-block;
+  width: 17.6%;
+  text-align: center;
+  /*border: 1px solid #cccccc;*/
+}
+
+nav a:hover, nav a:focus {
+  background-color: #cccccc;
+  color: white;
+}
+
+section {
+  margin: 0.5em 0;
+  padding: 1em 5em 3em 5em;
+  border-bottom: 2px solid #cccccc;
+  display: block;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  font-family: "ralewaylight", sans-serif;
+  margin-top: 0;
+  color: #666766;
+  margin: 0.8em 0em 0.8em 0em;
+  max-width: 30em; 
+}
+
+section code {
+  font-family: "ralewaylight";
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+section div img {
+  width: 7em;
+}
+
+a.button {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #efab1f;
+  border-color: #efab1f;
+  border-radius: 0.1em;
+  border-style: solid;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+a.button:hover, a.button:focus {
+  background-color: #efab1f;
+  color: #fff;
+}
+
+form {
+  background-color: #cccccc;
+  padding: 1em 2em 1em 2em;
+  display: inline-block;
+}
+
+.input-wrapper {
+  margin: 0 0 1em 0;
+  display: inline-block;
+}
+
+figcaption {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
+}
+
+figure {
+  position: relative;
+  margin: 0em;
+}
+
+#header-nav {
+  background-color: white;
+  color: 666766;
+  font-size: 1em;
+  padding: 1em 2em 1em 2em;
+  border: 1px solid #cccccc;
+}
+
+span a {
+  font-family: "ralewayregular";
+  font-size: 1em;
+  color: #666766;
+  padding-left: 1em;
+  margin: 0.1em;
+}
+
+div.img {
+  height: 30px;
+}
+
+header img {
+  width: 100%;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+    <link href="css/main.css" rel="stylesheet">
+  
+  </head>
+  
+
+  <body>
+    <header>
+      <div id="header-content"><img src="img/lumiralogo.png" alt="lumiralogo"/>
+      <span class="float-rightnav">STYLEGUIDE</span></div>
+      <img src="img/bannerimage.png" alt="bannerimage"/>
+    </header>
+  
+    <nav>
+      <div id="nav-bar">
+        <a href="#Button">Button</a>
+        <a href="#Form">Form</a>
+        <a href="#Text">Textual Elements</a>
+        <a href="#Imagery">Imagery</a>
+        <a href="#KeyGrouping">Key Grouping</a>
+      </div>
+    </nav>
+    <!-- Try to ensure that each element has its own portion of the page -->
+  
+    <section id="Button">
+      <h1>Default Button Style</h1>
+      <h2>CSS SELECTOR:</h2>
+      <p>'a.button, a.button:hover, a,button:focus'</p>
+      <h2>SAMPLE CODE</h2>
+      <code>&lt;a class="button" href="#" &gt;More Details&lt;/a&gt;
+        &lt;a class="button" href="#"&gt;Buy&lt;/a&gt;
+      </code>
+      <h2>RENDERED ELEMENT:</h2>
+      <a class="button" href="#">More Details</a>
+      <a class="button" href="#">Buy</a>
+    </section>
+
+    <section id="Form">
+      <h1>Default FORM Style</h1>
+      <h2>CSS SELECTOR:</h2>
+      <p>'form'</p>
+      <h2>SAMPLE CODE</h2>
+      <code>
+        &lt;form method="post" action="#"&gt;&lt;div class="input-wrapper"&gt;&lt;h3&gt;&lt;label for="form-name"&gt;First Name:&lt;/label&gt;&lt;/h3&gt;&lt;input type="text" id="form-name" placeholder="Jane"&gt;&lt;/div&gt;&lt;form method="post" action="#"&gt;&lt;div class="input-wrapper"&gt;&lt;h3&gt;&lt;label for="form-name"&gt;Last Name:&lt;/label&gt;&lt;/h3&gt;&lt;input type="text" id="form-name" placeholder="Doe"&gt;&lt;/div&gt;
+      </code>
+      <h2>RENDERED ELEMENT:</h2>
+      <form method="post" action="#">
+        <div class="input-wrapper">
+          <h3><label for="form-firstname">First Name:</label></h3>
+          <input type="text" id="form-firstname" placeholder="Jane">
+        </div>
+        <div class="input-wrapper">
+          <h3><label for="form-firstname">Last Name:</label></h3>
+          <input type="text" id="form-lastname" placeholder="Doe">
+        </div>
+      </form>
+    </section>
+
+    <section id="Text">
+      <h1>TEXTUAL ELEMENTS</h1>
+      <h2>CSS SELECTOR:</h2>
+      <p>'h1, p'</p>
+      <h2>SAMPLE CODE</h2>
+      <code>
+        &lt;h1&gt;This is an Example of Heading 1&lt;/h1&gt;&lt;img src="img/line.png" width="4%" alt="line"&gt;&lt;p&gt;This is an example of a paragraph text about something or something else. Lorem ipsum dolor sit amet, consectetur&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Bullet Point 1&lt;/li&gt;&lt;/ol&gt;&lt;ol&gt;&lt;li&gt;Bullet Point 2&lt;/li&gt;&lt;/ol&gt;&lt;img src="img/phone.png" width="360em" alt="phone"&gt;
+      </code>
+      <h2>RENDERED ELEMENT:</h2>
+      <h1>This is an Example of Heading 1</h1>
+      <img src="img/line.png" width="4%" alt="line">
+      <p>This is an example of a paragraph text about something or something else. Lorem ipsum dolor sit amet, consectetur</p>
+      <ol>
+          <li>Bullet Point 1</li>
+          <li>Bullet Point 2</li>
+      </ol>
+      <img src="img/phone.png" width="360em" alt="phone">
+    </section>    
+  
+    <section id="Imagery">
+      <h1>IMAGERY</h1>
+      <h2>CSS SELECTOR:</h2>
+      <p>'figcaption, figure'</p>
+      <h2>SAMPLE CODE</h2>
+      <code>
+        &lt;figure&gt;&lt;img src="img/bannerimage.png" alt="bannerimage" width="100%"&gt;&lt;figcaption&gt;&lt;h1&gt;This is an Example of Banner Heading&lt;/h1&gt;&lt;img src="img/line.png" alt="line" width="10%"&gt;&lt;/figcaption&gt;
+      </code>
+      <h2>RENDERED ELEMENT:</h2>
+      <figure>
+        <img src="img/bannerimage.png" alt="bannerimage" width="100%">
+        <figcaption><h1>This is an Example of Banner Heading</h1><img src="img/line.png" alt="line" width="10%"></figcaption>
+      </figure>
+    </section>    
+
+    <section id="KeyGrouping">
+      <h1>KEY GROUPING (NAVIGATION BAR)</h1>
+      <h2>CSS SELECTOR:</h2>
+      <p>'#header-nav, span a'</p>
+      <h2>SAMPLE CODE</h2>
+      <code>
+        &lt;div id="header-nav"&gt;&lt;img src="img/lumiralogogray.png" alt="lumiralogogray"&gt;&lt;span class="float-right"&gt;&lt;a href="#1"&gt;Products&lt;/a&gt;&lt;a href="#1"&gt;Learning&lt;/a&gt;&lt;a href="#1"&gt;Support&lt;/a&gt;&lt;a href="#1"&gt;About&lt;/a&gt;&lt;a href="#1"&gt;Buy&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+      </code>
+      <h2>RENDERED ELEMENT:</h2>
+      <div id="header-nav"><img src="img/lumiralogogray.png" alt="lumiralogogray"/>
+        <span class="float-right">
+          <a href="#1">Products</a>
+          <a href="#2">Learning</a>
+          <a href="#3">Support</a>
+          <a href="#4">About</a>
+          <a href="#5">Buy</a>
+        </span>
+      </div>
+    </section>    
+
+  </body>
+
+</html>
