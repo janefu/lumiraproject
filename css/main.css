@@ -187,10 +187,29 @@ form {
   display: inline-block;
 }
 
+
 .input-wrapper {
   margin: 0 0 1em 0;
   display: inline-block;
 }
+
+#form-firstname, #form-lastname{
+  padding-bottom: 3px;
+  padding-top: 10px;
+  font-family: "ralewaylight", sans-serif;
+  color: #666766;
+  font-size: 0.875em;
+}
+
+#firstname-box, #lastname-box{
+  /*border: 1px solid #666766;*/
+  text-align: center;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px
+}
+
+
 
 figcaption {
   position: absolute;
