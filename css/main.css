@@ -88,7 +88,7 @@ header span img {
 
 #nav-bar {
   background-color: white;
-  padding: 0;
+  padding: 0em;
 }
 
 #header-content {
@@ -208,7 +208,6 @@ form {
   width: 150px;
   height: 25px
 }
-
 
 
 figcaption {
