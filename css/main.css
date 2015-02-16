@@ -187,7 +187,6 @@ form {
   display: inline-block;
 }
 
-
 .input-wrapper {
   margin: 0 0 1em 0;
   display: inline-block;
@@ -209,7 +208,10 @@ form {
   height: 25px
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b3a8a37331d76e464f752a72a859ef6d62d90fd3
 figcaption {
   position: absolute;
   top: 1em;
