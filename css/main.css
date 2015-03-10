@@ -34,6 +34,16 @@
     font-style: normal;
 }
 
+.halfpage {
+  float: left;
+  width: 50%;
+}
+
+.fullpage {
+  float: left;
+  width: 100%;
+}
+
 body {
   font-family: "ralewayregular", sans-serif;
   font-size: 16px;
@@ -43,34 +53,50 @@ body {
 
 h1 {
   font-family: "ralewaybold", sans-serif;
-  font-size: 1.5em;
+  font-size: 3em;
   color: #efab1f;
-  margin: 0;
 }
 
 h2 {
+  clear: both;
   font-family: "ralewayregular", sans-serif;
-  font-size: 1.125em;
+  font-size: 1.3em;
   color: #666766;
+  line-height: 1.7em;
 }
 
 h3 {
-  font-family: "ralewayregular", sans-serif;
-  font-size: 0.8em;
+  font-family: "ralewaybold", sans-serif;
+  font-size: 1.5em;
   color: #666766;
+}
+
+h4 {
+  font-family: "ralewayregular", sans-serif;
+  font-size: 1.5em;
+  color: #efab1f;
+}
+
+h5 {
+  font-family: "ralewaylight", sans-serif;
+  font-size: 1.2em;
+  color: #666766;
+  line-height: 2em;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+h6 {
+  font-family: "ralewayregular", sans-serif;
+  font-size: 1.1em;
+  color: #efab1f;
 }
 
 p {
   font-family: "ralewaylight", sans-serif;
-  color: #666766;
-  font-size: 0.875em;
-}
-
-ol {
-  font-family: "ralewaylight", sans-serif;
-  color: #666766;
-  font-size: 0.875em;
-  width: 40%;  
+  font-size: 1.2em;
+  font-color: #666766;
+  line-height: 2em;
 }
 
 header {
@@ -119,14 +145,12 @@ nav a {
   color: #666766;
   font-size: 1rem;
   padding: 1em 0.8em;
-  /* top right bottom left */
   text-decoration: none; 
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
   display: inline-block;
   width: 17.6%;
   text-align: center;
-  /*border: 1px solid #cccccc;*/
 }
 
 nav a:hover, nav a:focus {
@@ -138,7 +162,7 @@ section {
   margin: 0.5em 0;
   padding: 1em 5em 3em 5em;
   border-bottom: 2px solid #cccccc;
-  display: block;
+  display: inline-block;
 }
 
 section h3 {
@@ -183,17 +207,37 @@ a.button:hover, a.button:focus {
   color: #fff;
 }
 
-form {
-  background-color: #cccccc;
-  padding: 1em 2em 1em 2em;
+a.button2 {
+  font-family: "ralewaybold", sans-serif;
   display: inline-block;
+  padding: 0.5em 0.75em;
+  color: white;
+  background-color: #efab1f;
+  border-color: #efab1f;
+  border-radius: 0em;
+  border-style: solid;
+  border-width: 2px;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+a.button2:hover, a.button2:focus {
+  background-color: #666766;
+  border-color: #666766;
+  color: white;
+}
+
+.header-img img {
+  height: auto; 
+  width: 100%;
+  overflow: auto;
 }
 
 figcaption {
   position: absolute;
-  top: 1em;
+  top: 0.5em;
   left: 1em;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.50);
 }
 
 figure {
@@ -201,25 +245,63 @@ figure {
   margin: 0em;
 }
 
+figcaption h1 {
+  text-shadow: 0.03em 0.03em 0.05em #666766;
+}
+
+.col-12of12 {
+  float: right;
+  text-align: left;
+  width: 100%;
+}
+
+.col-4of12 {
+  padding-top: 1em;
+  width: 33.333%;
+}
+
+.col-6of12 {
+  padding: 0.3em; 
+  width: 50%;
+  text-align: left;
+}
+
 .input-wrapper {
   margin: 0 0 1em 0;
   display: inline-block;
 }
 
-#form-firstname, #form-lastname{
-  padding-bottom: 3px;
-  padding-top: 10px;
-  font-family: "ralewaylight", sans-serif;
-  color: #666766;
-  font-size: 0.875em;
+.margin-top {
+  margin-top: 1em;
 }
 
-#firstname-box, #lastname-box{
-  /*border: 1px solid #666766;*/
-  text-align: center;
-  border-radius: 5px;
-  width: 150px;
-  height: 25px
+.side-margin {
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
+form {
+  padding: 1em 2em 1em 2em;
+  display: inline-block;
+}
+
+legend {
+  font-family: 'ralewaybold', sans-serif;
+}
+
+fieldset {
+  border: 1px solid #666766;
+}
+
+input, textarea {
+  padding: 0.9em;
+  margin-bottom: 1em;
+  border: 1px solid #cccccc;
+  width: 100%;
+  color: #cccccc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;   
 }
 
 #header-nav {

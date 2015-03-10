@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Lumira Style Guide</title>
+    <link href="css/main.css" rel="stylesheet">
+  
+  </head>
+  
+
+  <body>
+    <header>
+      <div id="header-content"><img src="img/lumiralogo.png" alt="lumiralogo"/>
+      <span class="float-rightnav">STYLEGUIDE</span></div>
+      <img src="img/bannerimage.png" alt="bannerimage"/>
+    </header>
+  
+    <nav>
+      <div id="nav-bar">
+        <a href="#Button">Button</a>
+        <a href="#Form">Form</a>
+        <a href="#Text">Textual Elements</a>
+        <a href="#Imagery">Imagery</a>
+        <a href="#KeyGrouping">Key Grouping</a>
+      </div>
+    </nav>
+  
+    <div class="halfpage">
+      <section id="Button">
+        <h1>Button 1 Style</h1>
+        <h2>CSS SELECTOR:</h2>
+        <p>'a.button, a.button:hover, a,button:focus'</p>
+        <h2>SAMPLE CODE</h2>
+        <code>&lt;a class="button" href="#" &gt;More Details&lt;/a&gt;
+        </code>
+        <h2>RENDERED ELEMENT:</h2>
+        <a class="button" href="#">More Details</a>
+      </section>
+    </div>
+
+    <div class="halfpage">
+      <section id="Button2">
+        <h1>Button 2 Style</h1>
+        <h2>CSS SELECTOR:</h2>
+        <p>'a.button2, a.button2:hover, a,button2:focus'</p>
+        <h2>SAMPLE CODE</h2>
+        <code>&lt;a class="button2" href="#" &gt;More Details&lt;/a&gt;
+        </code>
+        <h2>RENDERED ELEMENT:</h2>
+        <a class="button2" href="#">More Details</a>
+      </section>
+    </div>
+
+    <div class="fullpage">
+      <section id="Form">
+        <h1>Default FORM Style</h1>
+        <h2>CSS SELECTOR:</h2>
+        <p>'form'</p>
+        <h2>SAMPLE CODE</h2>
+        <code>
+          &lt;form&gt;&lt;fieldset&gt;
+          &lt;ledgend&gt;Email Address:&lt;/ledgend&gt;
+          &lt;div class="margin-top"&gt;
+          &lt;div class="col-6of12"&gt;
+          &lt;input type="text" name="firstname" value="First Name"&gt;
+          &lt;/div&gt;
+          &lt;div class="col-6of12"&gt;
+          &lt;input type="text" name="lastname" value="Last Name"&gt;
+          &lt;/div&gt;
+          &lt;div class="col-6of12"&gt;
+          &lt;input type="text" name="lastname" value="Email"&gt;
+          &lt;/div&gt;
+          &lt;div class="col-12of12"&gt;
+          &lt;a class="button" href="cart.html"&gt;Login&lt;/a&gt;
+          &lt;a class="button" href="cart.html"&gt;Create Account&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/fieldset&gt;&lt;/form&gt;
+        </code>
+        <h2>RENDERED ELEMENT:</h2>
+        <form>
+          <fieldset>
+            <legend>Email Address:</legend>
+            <div class="margin-top">
+              <div class="col-6of12">
+                <input type="text" name="firstname" value="First Name">
+              </div>
+              <div class="col-6of12">
+                <input type="text" name="lastname" value="Last Name">
+              </div>
+              <div class="col-6of12">
+                <input type="text" name="lastname" value="Email">
+              </div>
+              <div class="col-12of12">
+                <a class="button" href="cart.html">Login</a>
+                <a class="button" href="cart.html">Create Account</a>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </div>
+
+    <div class="fullpage">
+      <section id="Text">
+        <h1>TEXTUAL ELEMENTS</h1>
+        <h2>CSS SELECTOR:</h2>
+        <p>'h1, h2, h3, h4, h5, h6, p'</p>
+        <h2>SAMPLE CODE</h2>
+        <code>
+          &lt;h1&gt;This is an Example of Heading 1&lt;/h1&gt;
+          &lt;h2&gt;This is an Example of Heading 2&lt;/h2&gt;
+          &lt;h3&gt;This is an Example of Heading 3&lt;/h3&gt;
+          &lt;h4&gt;This is an Example of Heading 4&lt;/h4&gt;
+          &lt;h5&gt;This is an Example of Heading 5&lt;/h5&gt;
+          &lt;h6&gt;This is an Example of Heading 6&lt;/h6&gt;
+          &lt;p&gt;This is an example of a paragraph text about something or something else. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur&lt;/p&gt;
+        </code>
+        <h2>RENDERED ELEMENT:</h2>
+        <h1>This is an Example of Heading 1</h1>
+        <h2>This is an Example of Heading 2</h2>
+        <h3>This is an Example of Heading 3</h3>
+        <h4>This is an Example of Heading 4</h4>
+        <h5>This is an Example of Heading 5</h5>
+        <h6>This is an Example of Heading 6</h6>
+        <p>This is an example of a paragraph text about something or something else. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur</p>
+      </section>   
+    </div> 
+    
+    <div class="fullpage">
+      <section id="Imagery">
+        <h1>IMAGERY</h1>
+        <h2>CSS SELECTOR:</h2>
+        <p>'figcaption, figure'</p>
+        <h2>SAMPLE CODE</h2>
+        <code>
+          &lt;figure&gt;&lt;img src="img/bannerimage.png" alt="bannerimage" width="100%"&gt;&lt;figcaption&gt;&lt;h1&gt;This is an Example of Banner Heading&lt;/h1&gt;&lt;img src="img/line.png" alt="line" width="10%"&gt;&lt;/figcaption&gt;
+        </code>
+        <h2>RENDERED ELEMENT:</h2>
+            <div class="header-img">
+              <div class="col-12of12">
+                <figure>
+                  <img src="img/homeheader.jpg" alt="header-image">
+                  <figcaption>
+                    <h1>Self-Service Data Visualization for Everyone</h1>
+                    <div class="col-6of12">
+                      <h2>Help everyone in your organization to better understand data and use it to tell stories that captivate their audience.</h2>
+                      <div class="col-4of12">
+                        <a class="button2" href="cart.html">Buy Now</a>
+                      </div>
+                    </div>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+      </section> 
+    </div>   
+
+    <div class="fullpage">
+      <section id="KeyGrouping">
+        <h1>KEY GROUPING (NAVIGATION BAR)</h1>
+        <h2>CSS SELECTOR:</h2>
+        <p>'#header-nav, span a'</p>
+        <h2>SAMPLE CODE</h2>
+        <code>
+          &lt;div id="header-nav"&gt;&lt;img src="img/lumiralogogray.png" alt="lumiralogogray"&gt;&lt;span class="float-right"&gt;&lt;a href="#1"&gt;Products&lt;/a&gt;&lt;a href="#1"&gt;Learning&lt;/a&gt;&lt;a href="#1"&gt;Support&lt;/a&gt;&lt;a href="#1"&gt;About&lt;/a&gt;&lt;a href="#1"&gt;Buy&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+        </code>
+        <h2>RENDERED ELEMENT:</h2>
+        <div id="header-nav"><img src="img/lumiralogogray.png" alt="lumiralogogray"/>
+          <span class="float-right">
+            <a href="#1">Products</a>
+            <a href="#2">Learning</a>
+            <a href="#3">Contact</a>
+            <a href="#4">About</a>
+            <a href="#5">Cart 1</a>
+          </span>
+        </div>
+      </section> 
+    </div>   
+
+  </body>
+
+</html>
